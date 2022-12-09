@@ -61,7 +61,7 @@ app.get(
     // if문 > next 분기처리
     if (true) {
       // 다음 "미들웨어"가 실행되지 않고 다음 "라우터"가 실행됨
-      next(route);
+      next('route');
     } else {
       next();
     }
